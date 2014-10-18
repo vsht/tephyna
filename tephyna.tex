@@ -1,0 +1,63 @@
+\documentclass[10pt,a4paper]{scrartcl}
+\usepackage{scrhack}
+\usepackage[a4paper, includefoot, top=2cm, bottom=2 cm, left= 1.5cm, right=1.3cm]{geometry}
+\usepackage{newcent} % New century schoolbook font
+\usepackage{subfiles} % splitting document into parts in a more convenient way
+\usepackage[T1]{fontenc} %encoding
+\usepackage[utf8]{inputenc} % encoding
+\usepackage[ngerman]{babel} % spelling
+\usepackage{hyperref} % references
+\usepackage[onehalfspacing]{setspace} %spacing
+\usepackage{multirow} % special tables
+\usepackage{fancyhdr} % header and footers
+\usepackage{tcolorbox} % boxes around text
+\usepackage{keystroke} % carriare return symbol
+\usepackage{xcolor} % colors
+\usepackage{titlesec} % to start each section with new page
+\setlength{\parindent}{0ex}
+\definecolor{lightgray}{gray}{0.93}
+\newcommand{\sectionbreak}{\clearpage}
+\newcommand{\minitab}[2][l]{\begin{tabular}{#1}#2\end{tabular}}
+\newcommand{\mybox}[2]{\begin{tcolorbox}[colback=white]\colorbox{lightgray}{#1}\\ \\ \texttt{#2} \end{tcolorbox}}
+\newcommand{\mydbox}[3]{\begin{tcolorbox}[colback=white]\colorbox{lightgray}{#1} \vskip 2mm \colorbox{lightgray}{#2}\\ \\ \texttt{#3} \end{tcolorbox}}
+
+\begin{document}
+
+\subfile{sections/vorwort.tex}
+\newpage
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[L]{TePhyNa - Textbausteine für Physiker und andere Naturwissenschaftler}
+\fancyhead[C]{~}
+\fancyhead[R]{\rightmark}
+\fancyfoot[OL]{Seite \thepage}
+\fancyfoot[OC]{~}
+\fancyfoot[OR]{Copyright (C)  2010-2014 Vladyslav Shtabovenko, CC-BY-SA 4.0}
+
+\tableofcontents
+
+\newpage
+
+\section{Einleitungen}
+\subfile{sections/einleitung.tex}
+\section{Bilder, Tabellen, Diagramme, Graphen}
+
+\subfile{sections/bilder.tex}
+\section{Versuche}
+\subfile{sections/versuche.tex}
+\section{Anwendungen, Beispiele}
+\subfile{sections/anwendungen.tex}
+\section{Argumente und Erklärungen}
+\subfile{sections/argumente.tex}
+\section{Überleitungen}
+\subfile{sections/ueberleitungen.tex}
+\section{Modellannahmen}
+\subfile{sections/modellannahmen.tex}
+\section{Definitionen}
+\subfile{sections/definitionen.tex}
+\section{Berechnungen}
+\subfile{sections/berechnungen.tex}
+
+\end{document}
