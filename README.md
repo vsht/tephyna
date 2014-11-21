@@ -7,9 +7,9 @@ It is a collection of text modules for writing scientific texts in German.
 
 # PDF
 
-Zum Herunterladen der PDF-Datei klicken sie bitte [hier](http://users.ph.tum.de/ga57tah/tephyna.pdf).
+Zum Herunterladen der PDF-Datei klicken sie bitte [hier](https://github.com/vsht/tephyna/releases).
 
-Please click [here](http://users.ph.tum.de/ga57tah/tephyna.pdf) to download the PDF file.
+Please click [here](https://github.com/vsht/tephyna/releases) to download the PDF file.
 
 # License
 
