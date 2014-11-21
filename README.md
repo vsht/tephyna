@@ -1,9 +1,9 @@
 # TePhyNa
 TePhyNa ist ein Akronym für "Textbausteine für Physiker und andere Naturwissenschaftler". Es handelt sich dabei
-um eine Sammlung von Textbausteinen für das Verfassen wissenschaftlicher Texte in deutscher Sprache.
+um eine Sammlung von Textbausteinen für das Verfassen wissenschaftlicher Texte (vor allem in Physik) in deutscher Sprache.
 
 TePhyNa is an acronym for "Textbaustine für Physiker und andere Naturwissenschaftler" ("Text modules for Physicists and other Nature Scientists").
-It is a collection of text modules for writing scientific texts in German.
+It is a collection of text modules for writing scientific texts (especially in physics) in German.
 
 # PDF
 
