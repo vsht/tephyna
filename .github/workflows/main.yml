@@ -10,4 +10,9 @@ jobs:
         uses: dante-ev/latex-action@master
         with:
           root_file: tephyna.tex
+      - name: Upload the resulting PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: PDF
+          path: tephyna.pdf
 
